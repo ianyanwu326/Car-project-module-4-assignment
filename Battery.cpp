@@ -7,3 +7,7 @@ Battery::Battery(int capacityKWh, string brand)
   : capacityKWh(capacityKWh), brand(brand) {
 }
 
+// Displays battery information
+void Battery::display() const {
+  cout << "Battery - Brand: " << brand << ", Capacity: " << capacityKWh << " kWh" << endl;
+}
