@@ -7,3 +7,10 @@
 class ElectricCar : public Car {
 private:
   Battery battery;
+public:
+  ElectricCar(string make, string model, int year, string vin, Battery battery);
+  void displayInfo() const override;
+  string getType() const override;
+};
+
+#endif
