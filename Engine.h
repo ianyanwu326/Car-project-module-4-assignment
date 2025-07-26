@@ -8,10 +8,3 @@ class Engine {
 private:
   int horsepower;
   string fuelType;
-public:
-  Engine(int horsepower = 150, string fuelType = "Gasoline");
-  void display() const;
-};
-
-#endif
-
