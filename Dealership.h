@@ -8,3 +8,10 @@ using namespace std;
 class Dealership {
 private:
   vector<Car*> inventory;
+public:
+  void addCar(Car* car);
+  void showInventory() const;
+  ~Dealership();
+};
+
+#endif
